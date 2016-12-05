@@ -1,0 +1,26 @@
+{
+  "name": "mysupertest",
+  "version": "1.0.0",
+  "description": "API testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoujing0377/supertest_workshop.git"
+  },
+  "keywords": [
+    "API",
+    "testing"
+  ],
+  "author": "zhoujing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoujing0377/supertest_workshop/issues"
+  },
+  "homepage": "https://github.com/zhoujing0377/supertest_workshop#readme",
+  "devDependencies": {
+    "supertest": "^2.0.1"
+  }
+}

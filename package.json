@@ -1,26 +1,16 @@
 {
-  "name": "mysupertest",
-  "version": "1.0.0",
-  "description": "API testing",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhoujing0377/supertest_workshop.git"
-  },
-  "keywords": [
-    "API",
-    "testing"
-  ],
+  "name": "supertest",
   "author": "zhoujing",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhoujing0377/supertest_workshop/issues"
+  "version": "1.1.0",
+  "dependencies": {
+    "chai": "~3.2.0",
+    "supertest": "~1.1.0",
+    "supertest-as-promised": "~2.0.2"
   },
-  "homepage": "https://github.com/zhoujing0377/supertest_workshop#readme",
   "devDependencies": {
-    "supertest": "^2.0.1"
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-mocha-test": "~0.12.7",
+    "supertest": "^1.1.0"
   }
 }

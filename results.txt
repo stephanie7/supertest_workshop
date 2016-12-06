@@ -1,12 +1,9 @@
-[31m>> [39mMocha exploded!
-[31m>> [39mSyntaxError: Unexpected end of input[31m
->> [39m    at exports.runInThisContext (vm.js:53:16)[31m
->> [39m    at Module._compile (module.js:387:25)[31m
->> [39m    at Object.Module._extensions..js (module.js:422:10)[31m
->> [39m    at Module.load (module.js:357:32)[31m
->> [39m    at Function.Module._load (module.js:314:12)[31m
->> [39m    at Module.require (module.js:367:17)[31m
->> [39m    at require (internal/module.js:16:19)[31m
->> [39m    at /Users/jizhou/Documents/supertest_workshop/node_modules/mocha/lib/mocha.js:222:27[31m
->> [39m    at Array.forEach (native)[31m
->> [39m    at Mocha.loadFiles (/Users/jizhou/Documents/supertest_workshop/node_modules/mocha/lib/mocha.js:219:14)
+
+[0m[0m
+[0m  As a management for pet store, I need to manage kinds of pets.[0m
+  [32m  ✓[0m[90m The management should add a new pet in my store successfully.[0m[31m (665ms)[0m
+  [32m  ✓[0m[90m The management should get the pet which is just added by pet_id.[0m[31m (548ms)[0m
+
+
+[92m [0m[32m 2 passing[0m[90m (1s)[0m
+
